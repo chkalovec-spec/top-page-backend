@@ -1,4 +1,4 @@
-enum TopCategories {
+export enum TopCategories {
   Courses,
   Services,
   Books,
@@ -6,6 +6,7 @@ enum TopCategories {
 }
 
 export class TopModel {
+  _id: string;
   firstCategory: TopCategories;
   secondCategory: string;
   title: string;
